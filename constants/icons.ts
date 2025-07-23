@@ -3,6 +3,7 @@ import diamond from "@/assets/icons/diamond.png"
 import markets from "@/assets/icons/markets.png"
 import news from "@/assets/icons/news.png"
 import portfolio from "@/assets/icons/portfolio.png"
+import profile from "@/assets/icons/profile.png"
 import search from "@/assets/icons/search.png"
 
 export const icons = {
@@ -12,4 +13,5 @@ export const icons = {
   portfolio,
   community,
   diamond,
+  profile,
 }
