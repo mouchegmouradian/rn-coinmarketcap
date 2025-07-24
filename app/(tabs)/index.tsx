@@ -1,3 +1,4 @@
+import Summary from "@/components/summary/summary"
 import { icons } from "@/constants/icons"
 import { router } from "expo-router"
 import { Image, SafeAreaView, Text, TouchableOpacity, View } from "react-native"
@@ -37,6 +38,7 @@ export default function Index() {
     <View className="flex-1 bg-primary">
       <SafeAreaView className="flex-1">
         <Header />
+        <Summary />
       </SafeAreaView>
     </View>
   )

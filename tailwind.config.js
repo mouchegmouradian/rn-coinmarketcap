@@ -8,8 +8,8 @@ module.exports = {
       colors: {
         primary: "#171925",
         secondary: "#A2A7B9",
-        green: "#16C784",
-        red: "#EA3943",
+        "cmc-green": "#16C784",
+        "cmc-red": "#EA3943",
         light: {
           100: "#D6C6FF",
           200: "#A8B5DB",

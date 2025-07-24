@@ -1,3 +1,4 @@
+import caretDown from "@/assets/icons/caret-down.png"
 import community from "@/assets/icons/community.png"
 import diamond from "@/assets/icons/diamond.png"
 import markets from "@/assets/icons/markets.png"
@@ -14,4 +15,5 @@ export const icons = {
   community,
   diamond,
   profile,
+  caretDown,
 }
