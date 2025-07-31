@@ -1,5 +1,6 @@
 import { View } from "react-native"
 
+import SummaryAltcoinIndex from "./summary-altcoin-index"
 import SummaryBasicInfo from "./summary-basic-info"
 import SummaryItem from "./summary-item"
 
@@ -20,7 +21,7 @@ const Summary = () => {
         </SummaryItem>
         <Separator />
         <SummaryItem className="w-1/4" title="Altcoin Index">
-          <SummaryBasicInfo value="$1.56T" percentageChange={-10} />
+          <SummaryAltcoinIndex value={39} />
         </SummaryItem>
         <Separator />
         <SummaryItem className="w-1/4" title="Fear & Greed">

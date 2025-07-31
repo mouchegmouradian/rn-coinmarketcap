@@ -10,20 +10,20 @@ const SummaryBasicInfo = ({
   percentageChange: number
 }) => {
   return (
-    <View>
+    <>
       <Text className="text-white text-base font-semibold">{value}</Text>
       <View className="flex flex-row items-center gap-x-1">
         <Image
           source={icons.caretDown}
-          className={`size-3 ${percentageChange > 0 ? "rotate-180" : ""}`}
+          className={`size-2.5 ${percentageChange > 0 ? "rotate-180" : ""}`}
           tintColor={percentageChange > 0 ? "#16C784" : "#EA3943"}
         />
         <Text
-          className={`text-sm font-medium ${percentageChange > 0 ? "text-cmc-green" : "text-cmc-red"}`}>
+          className={`text-xs h-4 font-medium ${percentageChange > 0 ? "text-cmc-green" : "text-cmc-red"}`}>
           {Math.abs(percentageChange)}%
         </Text>
       </View>
-    </View>
+    </>
   )
 }
 
